@@ -1,0 +1,40 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	
+}
+
+
+main{
+	display: flex;
+	flex-wrap: wrap;
+	/*display: grid;*/
+  /*grid-template-columns: repeat(1, 1fr 1fr);*/
+	margin: 4%;
+}
+
+main > div {
+	height: 85vh;
+	width: 50%;	
+}
+
+
+.main_div_1 {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.main_div_1 > img {
+	width: 90%;
+}
+
+/*
+.background1{
+	background-image:url(../img/bg1.jpg);
+	background-size:cover;
+	background-position:center center;
+	height:100vh;
+}*/

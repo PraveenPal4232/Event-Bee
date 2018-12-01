@@ -1,0 +1,283 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+}
+a::active{
+	color:#ccc;
+}
+img{
+	width:100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family:roboto;
+}
+header{
+	background-image:url("../img/bg1.jpg");
+	background-size:cover;
+	background-position:center center;
+	height:100vh;
+}
+nav{
+	width:100%;
+	padding:10px;
+	height:75px;
+	background:#fff;
+	position:fixed;
+	z-index:1;
+}
+.logo{
+	float:left;
+	margin-left:7.5%;
+}
+.fa-forumbee{
+	font-size:50px;
+	color:#2eb4f5;
+}
+nav ul{
+	float:right;
+	margin-right:7.5%;
+	padding-top:20px;
+}
+nav ul li{
+	display:inline;
+	margin-left:10px;
+}
+nav ul li a{
+	padding:10px 15px;
+	font-family:roboto;
+	color:#2eb4f5;
+	transition: all 0.3s ease;
+}
+nav ul li a:hover{
+	padding:10px 15px;
+	color:#888;
+	font-family:roboto;
+	transition: all 0.3s ease;
+}
+section{
+	display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width:85%;
+  margin:auto;
+  grid-gap:2em 1em;
+}
+.myh1{
+	text-align:center;
+	padding:80px 0px 60px 0px;
+}
+.Upcoming_Events h2{
+	color:#2eb4f5;
+}
+.Upcoming_Events h4{
+	float:left;
+	color:#555;
+}
+.Upcoming_Events h4 span{
+	margin-left:20px;
+	color:#2eb4f5;
+}
+section img{
+	margin:10px 0px;
+}
+.SEE_MORE{
+	padding:15px 40px;
+	color:#2eb4f5;
+	border:2px solid #2eb4f5;
+	display:block;
+	margin:auto;
+	width:170px;
+	font-family:roboto;
+	font-weight:999;
+	border-radius:30px;
+	margin-top:30px;
+	transition: all 0.3s ease;
+}
+.SEE_MORE:hover{
+	padding:15px 40px;
+	color:#fff;
+	border:2px solid #2eb4f5;
+	display:block;
+	background:#2eb4f5;
+	margin:auto;
+	width:170px;
+	font-family:roboto;
+	font-weight:999;
+	border-radius:30px;
+	margin-top:30px;
+	transition: all 0.3s ease;
+}
+.sponsor{
+	display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width:85%;
+  margin:auto;
+  grid-gap:5em;
+}
+footer{
+	padding:50px 0px;
+}
+footer p{
+	color:#888;
+	text-align:center;
+}
+footer p a{
+	color:#2eb4f5;
+	transition: all 0.3s ease;
+}
+article{
+	width:85%;
+	margin:auto;
+	margin-top:40px;
+}
+article h1{
+	color:#2eb4f5;
+}
+article h2{
+	color:#888;
+	margin-bottom:25px;
+}
+article h3{
+	color:#888;
+	margin:25px 0px 10px 0px;
+}
+article h2{
+	color:#888;
+	margin-bottom:25px;
+}
+article a{
+	color:#2eb4f5;
+}
+hgroup{
+	width:85%;
+	margin:auto;
+}
+hgroup p{
+	font-size:25px;
+	margin-bottom:15px;
+}
+
+/*  for mobile  */
+@media only screen and (max-width: 500px) {
+	header{
+	background-image:url("../img/bg2.jpg");
+	background-size:cover;
+	background-position:center center;
+	height:50vh;
+}
+nav{
+	width:100%;
+	padding:10px;
+	height:50px;
+	background:#fff;
+	position:fixed;
+	z-index:1;
+}
+.logo{
+	float:left;
+	margin-left:0px;
+}
+.fa-forumbee{
+	font-size:30px;
+	color:#2eb4f5;
+}
+nav ul{
+	float:right;
+	margin-right:0px;
+	padding-top:10px;
+}
+nav ul li{
+	display:inline;
+	margin-left:0px;
+}
+nav ul li a{
+	padding:10px 10px;
+	font-family:roboto;
+	color:#2eb4f5;
+	transition: all 0.3s ease;
+}
+nav ul li a:hover{
+	padding:10px 15px;
+	color:#888;
+	font-family:roboto;
+	transition: all 0.3s ease;
+}
+section{
+	display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width:95%;
+  margin:auto;
+  grid-gap:2em 1em;
+}
+.myh1{
+	text-align:center;
+	padding:40px 0px 20px 0px;
+}
+.Upcoming_Events h2{
+	color:#2eb4f5;
+}
+.Upcoming_Events h4{
+	float:left;
+	color:#555;
+}
+.Upcoming_Events h4 span{
+	margin-left:20px;
+	color:#2eb4f5;
+}
+section img{
+	margin:10px 0px;
+}
+.SEE_MORE{
+	padding:15px 40px;
+	color:#2eb4f5;
+	border:2px solid #2eb4f5;
+	display:block;
+	margin:auto;
+	width:170px;
+	font-family:roboto;
+	font-weight:999;
+	border-radius:30px;
+	margin-top:30px;
+	transition: all 0.3s ease;
+}
+.SEE_MORE:hover{
+	padding:15px 40px;
+	color:#fff;
+	border:2px solid #2eb4f5;
+	display:block;
+	background:#2eb4f5;
+	margin:auto;
+	width:170px;
+	font-family:roboto;
+	font-weight:999;
+	border-radius:30px;
+	margin-top:30px;
+	transition: all 0.3s ease;
+}
+.sponsor{
+	display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width:95%;
+  margin:auto;
+  grid-gap:2em;
+}
+footer{
+	padding:50px 0px;
+}
+footer p{
+	color:#888;
+	text-align:center;
+}
+footer p a{
+	color:#2eb4f5;
+	transition: all 0.3s ease;
+}
+hgroup p{
+	font-size:15px;
+	margin-bottom:15px;
+}
+}
+	
