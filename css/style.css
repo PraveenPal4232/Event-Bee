@@ -80,6 +80,7 @@ section{
 }
 section img{
 	margin:10px 0px;
+	border-radius: 5px;
 }
 .SEE_MORE{
 	padding:15px 40px;
