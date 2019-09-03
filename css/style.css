@@ -82,6 +82,9 @@ section img{
 	margin:10px 0px;
 	border-radius: 5px;
 }
+section img:hover{
+	box-shadow: 2px 4px 7px rgba(0,0,0,.2);
+}
 .SEE_MORE{
 	padding:15px 40px;
 	color:#2eb4f5;
