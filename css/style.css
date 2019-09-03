@@ -115,6 +115,10 @@ section img{
   margin:auto;
   grid-gap:5em;
 }
+.sponsor img:hover{
+	transform: scale(1.2);
+	transition: all 0.3s ease;
+ }
 footer{
 	padding:3em 2em;
 }
