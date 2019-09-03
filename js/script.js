@@ -41,16 +41,9 @@ balls.forEach((el, i, ra) => {
 });
 
 $('#sU').click(function() {
-  // $('#regs').animate({left: '0'});
-  // $('#regs').css('visibility', 'visible');
-  // $('#regs').css({opacity: 1.0, visibility: "visible"}).animate({opacity: 0}, 200);
   $("#regs").css({visibility:"visible", opacity: 0.0, display: "block"}).animate({opacity: 1.0}, 1);
 });
 
 $('#lg').click(function() {
-  // $('#regs').animate({left: '0'});
-  // $('#regs').css('visibility', 'visible');
   $('#regs').css({opacity: 1.0, visibility: "hidden"}).animate({opacity: 0}, 200);
-  // $('#regs').css({display: 'none'});
-  // $("#regs").css({visibility:"visible", opacity: 0.0, display: "block"}).animate({opacity: 1.0}, 1);
 });
