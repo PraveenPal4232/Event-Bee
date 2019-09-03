@@ -53,9 +53,7 @@ nav ul li a{
 	transition: all 0.3s ease;
 }
 nav ul li a:hover{
-	padding:10px 15px;
 	color:#888;
-	font-family:roboto;
 	transition: all 0.3s ease;
 }
 section{
@@ -195,15 +193,9 @@ nav ul li{
 }
 nav ul li a{
 	padding:10px 10px;
-	font-family:roboto;
-	color:#2eb4f5;
-	transition: all 0.3s ease;
 }
 nav ul li a:hover{
-	padding:10px 15px;
-	color:#888;
-	font-family:roboto;
-	transition: all 0.3s ease;
+	padding:10px 10px;
 }
 section{
 	display: grid;
